@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "security_web_filter", "Web_Filter\security_web_filter.csproj", "{D56E8CD9-0CF3-468C-A65E-2466888C8009}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{59ACC5F0-2D23-4610-80A2-8951108506EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D56E8CD9-0CF3-468C-A65E-2466888C8009}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{D56E8CD9-0CF3-468C-A65E-2466888C8009}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{D56E8CD9-0CF3-468C-A65E-2466888C8009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56E8CD9-0CF3-468C-A65E-2466888C8009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59ACC5F0-2D23-4610-80A2-8951108506EE}.Debug|Any CPU.ActiveCfg = Release
+		{59ACC5F0-2D23-4610-80A2-8951108506EE}.Debug|Any CPU.Build.0 = Release
+		{59ACC5F0-2D23-4610-80A2-8951108506EE}.Release|Any CPU.ActiveCfg = Release
+		{59ACC5F0-2D23-4610-80A2-8951108506EE}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
